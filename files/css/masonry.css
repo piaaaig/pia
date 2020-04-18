@@ -1,0 +1,269 @@
+/* Defaults */
+body {
+  height: 100%;
+	background: #fff6f3;
+  color: #465665;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding-top: 100px;
+}
+
+a {
+  color: #5b7083;
+  transition: all .25s ease-in-out;
+}
+
+/* The title */
+.title {
+  font-weight: 700;
+}
+
+/* The description */
+.desc {
+  font-size: 1em;
+  font-style: italic;
+  font-family: Georgia, serif;
+}
+
+/* Text-centering */
+.title,
+.desc,
+.intro {
+  text-align: center;
+}
+
+/* Intro section */
+.intro {
+  margin: 1.75em 0 .75em;
+  border-bottom: 3px double rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.75em;
+}
+
+.intro a {
+  opacity: .7;
+}
+
+.intro a:hover {
+  opacity: 1;
+}
+
+.intro h3 {
+  font-size: .825em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: .25em .75em .75em;
+}
+
+.intro h3 a {
+  font-weight: 400;
+}
+
+/* Masonry grid */
+.masonry {
+  transition: all .5s ease-in-out;
+  column-gap: 30px;
+  column-fill: initial;
+}
+
+/* Masonry item */
+.masonry .brick {
+  margin-bottom: 30px;
+  display: inline-block; /* Fix the misalignment of items */
+  vertical-align: top; /* Keep the item on the very top */
+}
+
+/* Masonry image effects */
+.masonry .brick img {
+  transition: all .5s ease-in-out;
+  backface-visibility: hidden; /* Remove Image flickering on hover */
+}
+
+.masonry .brick:hover img {
+  opacity: .75;
+}
+
+/* Bordered masonry */
+.masonry.bordered {
+  column-gap: 50px;
+}
+
+.masonry.bordered .brick {
+  margin-bottom: 25px;
+}
+
+/* Gutterless masonry */
+.masonry.gutterless {
+  column-gap: 0;
+}
+
+.masonry.gutterless .brick {
+  margin-bottom: 0;
+}
+
+/* Masonry on tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+/* Masonry on big screens */
+@media only screen and (min-width: 1024px) {
+  .desc {
+    font-size: 1.25em;
+  }
+
+  .intro {
+    letter-spacing: 1px;
+  }
+
+  .masonry {
+    column-count: 2;
+  }
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Baloo Bhaina 2', cursive;
+  align-items: center;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 31px;
+
+  color: #fff;
+  line-height: 1.2;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+  z-index: 1;
+
+}
+.title1 {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.title2 {
+  font-size: 45px;
+  font-weight: 500;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.titlecielo {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.titlecielo2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.titlecielop {
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.titlecieloh3 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+
+.worktext-cielo {
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 100px;
+  
+}
+
+.worktext2 {
+  padding-top: 40px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 30px;
+  
+}
+
+.logo {
+  width: 90px;
+}
+
+
+.imagen2 {
+  width: 200px;
+}
+
+.nav-link {
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.imgback {
+  
+    width: 100px;
+    position: fixed;
+    margin-left: 35%;
+    margin-top: -20px;
+}
+
+.imgback2 {
+  width: 100px;
+    position: fixed;
+    margin-left: 0;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.imgback3 {
+  
+  width: 100px;
+  position: fixed;
+  margin-left: 35%;
+  margin-top: -20px;
+}
+
+.imgback4 {
+width: 100px;
+  position: fixed;
+  margin-left: 0;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+
+.form {
+  margin-top: 100px;
+}
+
+.fondo {
+    width: 200px;
+    margin-left: 70%;
+    margin-top: 30%;
+    position: absolute;
+}
