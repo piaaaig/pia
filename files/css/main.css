@@ -393,4 +393,5 @@ textarea.input100 {
     border-radius: 0.25rem;
     -moz-box-shadow:    3px 3px 5px 6px #e3e3e3;
   -webkit-box-shadow: 1px 4px 5px 2px #e3e3e3;
+    border: none;
 }
