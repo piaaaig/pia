@@ -11,11 +11,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  padding-top: 100px;
+  padding-top: 10%;
 }
 
 a {
-  color: #5b7083;
+  color: #000;
   transition: all .25s ease-in-out;
 }
 
@@ -28,7 +28,7 @@ a {
 .desc {
   font-size: 1em;
   font-style: italic;
-  font-family: Georgia, serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Text-centering */
@@ -130,35 +130,6 @@ a {
   }
 }
 
-.btn {
-  font-size: 20px;
-  font-weight: 900;
-  font-family: 'Baloo Bhaina 2', cursive;
-  align-items: center;
-  margin-top: 20px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
-  min-width: 150px;
-  height: 40px;
-  background-color: transparent;
-  border-radius: 31px;
-
-  color: #fff;
-  line-height: 1.2;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-  position: relative;
-  z-index: 1;
-
-}
 .title1 {
   font-size: 20px;
   font-weight: 900;
@@ -169,6 +140,7 @@ a {
   font-size: 45px;
   font-weight: 500;
   font-family: 'Baloo Bhaina 2', cursive;
+  margin-top: 1%;
 }
 
 .titlecielo {
@@ -208,10 +180,16 @@ a {
 }
 
 .worktext2 {
-  padding-top: 40px;
   font-family: 'Poppins', sans-serif;
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-right: 15%;
   
+}
+
+.worktext1 {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 3%;
+  margin-right: 10%;
 }
 
 .logo {
@@ -225,37 +203,38 @@ a {
 
 .nav-link {
   font-family: 'Baloo Bhaina 2', cursive;
+  margin-top: 5%;
 }
 
 .imgback {
   
     width: 100px;
-    position: fixed;
-    margin-left: 35%;
+    position: absolute;
+    margin-left: 40%;
     margin-top: -20px;
 }
 
 .imgback2 {
   width: 100px;
-    position: fixed;
+    position: absolute;
     margin-left: 0;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 18%;
 }
 .imgback3 {
   
   width: 100px;
-  position: fixed;
-  margin-left: 35%;
+  position: absolute;
+  margin-left: 40%;
   margin-top: -20px;
 }
 
 .imgback4 {
-width: 100px;
-  position: fixed;
+  width: 100px;
+  position: absolute;
   margin-left: 0;
-  margin-left: 10%;
-  margin-top: 25%;
+  margin-left: 15%;
+  margin-top: 28%;
 }
 
 .form {
@@ -265,7 +244,7 @@ width: 100px;
 .fondo {
     width: 200px;
     margin-left: 70%;
-    margin-top: 30%;
+    margin-top: 23%;
     position: absolute;
 }
 
@@ -285,3 +264,45 @@ width: 100px;
 .card {
   border: none;
 }
+
+.square {
+    height: 342px;
+    width: 423px;
+    background-color: #ffe8e1;
+    margin-top: 26px;
+    -moz-box-shadow:    3px 3px 5px 6px #e3e3e3;
+  -webkit-box-shadow: 1px 4px 5px 2px #e3e3e3;
+}
+
+.contact100-form-btn-work {
+  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 115px;
+  height: 40px;
+  background-color: black;
+  border-radius: 31px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+  z-index: 1;
+}
+
+.div1 {
+  margin-top: 15%;
+}
+

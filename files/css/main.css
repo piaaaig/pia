@@ -42,7 +42,8 @@ a:hover {
 
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;  
 }
 
 p {
@@ -113,7 +114,8 @@ iframe {
 
 /*---------------------------------------------*/
 .container {
-	max-width: 1200px;
+  max-width: 1200px;
+  height: auto;
 }
 
 
@@ -124,7 +126,7 @@ iframe {
 
 .container-contact100 {
   width: 100%;  
-  min-height: 100vh;
+  min-height: 93vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -274,6 +276,7 @@ textarea.input100 {
   transition: all 0.4s;
   position: relative;
   z-index: 1;
+  
 }
 
 .contact100-form-btn::before {
