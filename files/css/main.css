@@ -126,7 +126,7 @@ iframe {
 
 .container-contact100 {
   width: 100%;  
-  min-height: 93vh;
+  min-height: 75vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -137,13 +137,15 @@ iframe {
   align-items: center;
   padding: 15px;
   position: relative;
+  margin-top: -35px;
   
 }
 
 .wrap-contact100 {
   width: 550px;
   background: transparent;
-  padding: 0px 0px 160px 0px;
+  padding: 0px 0px 0px 0px;
+
 }
 
 
