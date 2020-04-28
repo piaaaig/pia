@@ -1,0 +1,28 @@
+body {
+    background-color: #fff6f3;
+}
+
+@media (max-width: 768px) and (max-width: 1025px) {
+    .imgcontact1 {
+    visibility: hidden;
+    }
+    .contact100-form-title {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    input.input100 {
+        height: 45px;
+        padding: 0 35px 0 18px;
+    }
+  }
+
+  .imgcontact {
+    height: ;
+    width: 600px;
+  }
+
+  .container-form {
+      background-color: #fff6f3;
+      margin-top: 90px;
+  }
