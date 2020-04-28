@@ -85,9 +85,6 @@ a {
   backface-visibility: hidden; /* Remove Image flickering on hover */
 }
 
-.masonry .brick:hover img {
-  opacity: .75;
-}
 
 /* Bordered masonry */
 .masonry.bordered {
