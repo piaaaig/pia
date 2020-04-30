@@ -365,6 +365,10 @@ a {
 
   color: #eba792;
  }
+ .fa-github:hover {
+
+  color: #eba792;
+ }
 
  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
   color: #eba792;
