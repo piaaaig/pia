@@ -39,7 +39,7 @@ a:focus {
 
 a:hover {
   text-decoration: underline;
-  color: #eba792;
+  color: #fb537b;
 }
 
 /*---------------------------------------------*/
@@ -151,7 +151,7 @@ input::-webkit-input-placeholder { color: #bdbdd3;}
 input:-moz-placeholder { color: #bdbdd3;}
 input::-moz-placeholder { color: #bdbdd3;}
 input:-ms-input-placeholder { color: #bdbdd3;}
-input:-internal-autofill-selected { color: #eba792;}
+input:-internal-autofill-selected { color: #fb537b;}
 
 textarea::-webkit-input-placeholder { color: #bdbdd3;}
 textarea:-moz-placeholder { color: #bdbdd3;}
@@ -364,7 +364,7 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover:before {
-  background-color: #eba792;
+  background-color: #fb537b;
   width: calc(100% + 20px);
 }
 
@@ -433,7 +433,7 @@ textarea.input100 {
 }
 
 .contact100-form-btn-work:hover:before {
-  background-color: #eba792;
+  background-color: #fb537b;
   width: calc(100% + 20px);
 }
 
