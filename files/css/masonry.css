@@ -207,7 +207,7 @@ a {
 
 .nav-link {
   font-family: 'Baloo Bhaina 2', cursive;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .imgback {
@@ -371,5 +371,11 @@ a {
 
  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link  {
   color: #fb537b;
+ }
+
+ .navbar-nav-social {
+   display: flex;
+  flex-direction: row;
+  justify-content: center;
  }
  
