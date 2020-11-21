@@ -503,9 +503,21 @@ textarea.input100 {
     opacity: 1;
   }
   
+  .div1 {
+    text-align: justify;
+  }
   .div2 {
     margin-top: 70px;
   }
+  .title2 {
+    padding-top: 15%;
+    text-align: center;
+  }
+   
+.title1 {
+  padding-top: 25%;
+}
+
 }
 
 
@@ -513,7 +525,6 @@ textarea.input100 {
 .card {
     position: relative;
     display: -ms-flexbox;
-    display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     min-width: 0;
@@ -523,20 +534,31 @@ textarea.input100 {
     -moz-box-shadow: 3px 3px 5px 6px #e3e3e3;
   -webkit-box-shadow: 1px 4px 5px 2px #e3e3e3;
     border: none;
+
 }
 
 
 .btn-work-pro {
   display: block;
   padding: 2.5rem 0rem;
-  position: absolute;
 }
 
 @media (max-width: 992px) {
   .btn-work-pro {
-    display: block;
-    padding: 3.5rem 0rem 1rem 8rem;
-    position: absolute;
-    justify-content: center;
+    margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+  .contact100-form-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  .card {
+    display: contents;
+
   }
 }

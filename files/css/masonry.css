@@ -7,10 +7,12 @@ body {
 }
 
 .wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  padding-top: 10%;
+  padding-top: 2%;
+}
+
+.wrapper2 {
+  padding-top: 15%;
+
 }
 
 a {
@@ -129,16 +131,17 @@ a {
 }
 
 .title1 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 900;
   font-family: 'Baloo Bhaina 2';
+
 }
 
 .title2 {
   font-size: 45px;
   font-weight: 700;
 	font-family: 'Baloo Bhaina 2', sans-serif;
-  margin-top: 1%;
+  padding-top: 25%;
 }
 
 .titlecielo {
@@ -318,6 +321,8 @@ a {
   .column {
     width: 100%;
   }
+
+ 
   
 }
 
